@@ -1,15 +1,43 @@
 {
+  "main": "dist/styled-mq.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Undistraction/js-css-units.git"
+  },
+  "files": ["src", "lib"],
+  "keywords": ["javascript", "css", "css-in-js", "units", "rems", "ems", "px"],
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "6",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.12.1",
     "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.3.1",
     "jest": "^21.2.1",
     "prettier": "^1.9.1",
+    "rimraf": "^2.6.2",
     "rollup": "^0.52.1",
-    "rollup-plugin-babel": "^3.0.2",
+    "rollup-plugin-babel": "3",
     "rollup-plugin-commonjs": "^8.2.6",
     "rollup-plugin-node-resolve": "^3.0.0"
   },
   "dependencies": {
     "ramda": "^0.25.0"
+  },
+  "scripts": {
+    "test": "jest --watch",
+    "test:noWatch": "jest",
+    "build": "npm run build:lib",
+    "prebuild:lib": "rimraf lib/*",
+    "prebuild": "npm run lint",
+    "build:lib": "babel --out-dir lib --ignore \"__tests__\" src",
+    "lint": "eslint src",
+    "audit:packages": "yarn outdated || true",
+    "publish:patch": "npm version patch && sudo npm publish",
+    "publish:minor": "npm version minor && sudo npm publish",
+    "publish:major": "npm version major && sudo npm publish"
   }
 }

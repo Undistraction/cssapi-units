@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`elementsOfUnitedNumber throws if the value isn't in the form {number}{unit} 1`] = `"Supplied value was not a number with a unit: '5'"`;
+
+exports[`elementsOfUnitedNumber throws if the value isn't in the form {number}{unit} 2`] = `"Supplied value was not a number with a unit: '5'"`;
+
+exports[`elementsOfUnitedNumber throws if the value isn't in the form {number}{unit} 3`] = `"Supplied value was not a number with a unit: 'px'"`;
+
+exports[`elementsOfUnitedNumber throws if the value isn't in the form {number}{unit} 4`] = `"Supplied value was not a number with a unit: 'px10'"`;
+
+exports[`elementsOfUnitedNumber throws if the value isn't in the form {number}{unit} 5`] = `"Supplied value was not a number with a unit: ''"`;
+
+exports[`elementsOfUnitedNumber throws if the value isn't in the form {number}{unit} 6`] = `"Supplied value was not a number with a unit: 'null'"`;
+
+exports[`elementsOfUnitedNumber throws if the value isn't in the form {number}{unit} 7`] = `"Supplied value was not a number with a unit: '[object Object]'"`;
+
+exports[`elementsOfUnitedNumber throws if the value isn't in the form {number}{unit} 8`] = `"Supplied value was not a number with a unit: 'undefined'"`;
+
+exports[`elementsOfUnitedNumber throws if the value isn't in the form {number}{unit} 9`] = `"Supplied value was not a number with a unit: ''"`;
+
+exports[`elementsOfUnitedNumber throws if the value isn't in the form {number}{unit} 10`] = `"Supplied value was not a number with a unit: 'true'"`;
+
+exports[`elementsOfUnitedNumber throws if the value isn't in the form {number}{unit} 11`] = `"Supplied value was not a number with a unit: 'false'"`;
+
+exports[`elementsOfUnitedNumber throws if the value isn't in the form {number}{unit} 12`] = `"Supplied value was not a number with a unit: 'NaN'"`;
