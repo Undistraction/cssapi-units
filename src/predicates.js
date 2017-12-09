@@ -1,4 +1,4 @@
-import { __, contains, curry, join, gt, both, either } from 'ramda';
+import { __, contains, curry, join, gt, both, either, test } from 'ramda';
 import { isInteger, isFloat } from 'ramda-adjunct';
 import { UNITS } from './const';
 
@@ -14,6 +14,6 @@ export const isNumberWithEm = isNumberWithUnit([UNITS.EM]);
 export const isNumberWithRem = isNumberWithUnit([UNITS.REM]);
 export const isNumberWithDpi = isNumberWithUnit([UNITS.DPI]);
 export const isNumberWithPercent = isNumberWithUnit([UNITS.PERCENT]);
-export const isRatioString = test(/^[1-9]+[0-9]* ?\/ ?[1-9]+[0-9]*$/);
+export const isAspectRatioString = test(/^[1-9]+[0-9]* ?\/ ?[1-9]+[0-9]*$/);
 
 export const isUnitRemOrEm = contains(__, [UNITS.EM, UNITS.REM]);
