@@ -1,16 +1,16 @@
-export { UNITS } from './const';
-export {
+import { UNITS } from './const';
+import {
   pxToRemOrEmValue,
   remOrEmToPxValue,
   unitedDimensionToUnitlessPixelValue,
 } from './convert';
-export { outputWithUnit } from './output';
-export {
+import { outputWithUnit } from './output';
+import {
   elementsOfUnitedNumber,
   numericPartOfUnitedNumber,
   unitPartOfUnitedNumber,
 } from './parse';
-export {
+import {
   isValidNumber,
   isValidPositiveNumber,
   isNumberWithUnit,
@@ -22,4 +22,26 @@ export {
   isAspectRatioString,
   isUnitRemOrEm,
 } from './predicates';
-export { appendUnit } from './utils';
+import { appendUnit } from './utils';
+
+export {
+  UNITS,
+  pxToRemOrEmValue,
+  remOrEmToPxValue,
+  unitedDimensionToUnitlessPixelValue,
+  outputWithUnit,
+  elementsOfUnitedNumber,
+  numericPartOfUnitedNumber,
+  unitPartOfUnitedNumber,
+  isValidNumber,
+  isValidPositiveNumber,
+  isNumberWithUnit,
+  isNumberWithPx,
+  isNumberWithEm,
+  isNumberWithRem,
+  isNumberWithDpi,
+  isNumberWithPercent,
+  isAspectRatioString,
+  isUnitRemOrEm,
+  appendUnit,
+};
