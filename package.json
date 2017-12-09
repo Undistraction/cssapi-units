@@ -6,19 +6,8 @@
     "type": "git",
     "url": "git+https://github.com/Undistraction/js-css-units.git"
   },
-  "files": [
-    "src",
-    "lib"
-  ],
-  "keywords": [
-    "javascript",
-    "css",
-    "css-in-js",
-    "units",
-    "rems",
-    "ems",
-    "px"
-  ],
+  "files": ["src", "lib"],
+  "keywords": ["javascript", "css", "css-in-js", "units", "rems", "ems", "px"],
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "6",
@@ -51,7 +40,7 @@
     "build:lib": "babel --out-dir lib --ignore \"__tests__\" src",
     "lint": "eslint src",
     "audit:packages": "yarn outdated || true",
-    "prepublish": "npm run build",
+    "prepublishOnly": "npm run build",
     "publish:patch": "npm version patch && sudo npm publish",
     "publish:minor": "npm version minor && sudo npm publish",
     "publish:major": "npm version major && sudo npm publish"
