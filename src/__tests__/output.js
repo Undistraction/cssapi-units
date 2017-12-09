@@ -1,4 +1,4 @@
-import { outputWithUnit } from '../output';
+import { outputWithUnit } from '../index';
 
 describe('outputWithUnit()', () => {
   it('outputs the value with the correct unit', () => {

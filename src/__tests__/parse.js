@@ -1,5 +1,6 @@
-import { elementsOfUnitedNumber } from '../parse';
-import { genericInvalidValues } from './data';
+import {
+  elementsOfUnitedNumber,
+} from '../index';
 
 describe('elementsOfUnitedNumber', () => {
   it("throws if the value isn't a number followed by a unit", () => {

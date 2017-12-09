@@ -1,6 +1,5 @@
 import { __, values, reject, equals, map, compose, flatten } from 'ramda';
-import { appendUnit } from '../index';
-import { UNITS } from '../const';
+import { appendUnit, UNITS } from '../index';
 
 export const positiveNumbers = () => [5, 5.5];
 export const negativeNumbers = () => [-5, -5.5];

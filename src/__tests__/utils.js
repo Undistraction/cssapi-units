@@ -1,4 +1,4 @@
-import { appendUnit } from '../utils';
+import { appendUnit } from '../index';
 
 describe('appendUnit', () => {
   it('appends the supplied unit', () => {

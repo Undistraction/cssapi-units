@@ -2,7 +2,7 @@ import {
   unitedDimensionToUnitlessPixelValue,
   pxToRemOrEmValue,
   remOrEmToPxValue,
-} from '../convert';
+} from '../index';
 import { genericInvalidValues, genericNumbers } from './data';
 
 describe('pxToRemOrEmValue', () => {

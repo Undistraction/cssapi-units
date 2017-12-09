@@ -21,7 +21,7 @@ import {
   isNumberWithDpi,
   isNumberWithPercent,
   isAspectRatioString,
-} from '../predicates';
+} from '../index';
 
 // const toTitle = compose(join(''), over(lensIndex(0), toUpper));
 

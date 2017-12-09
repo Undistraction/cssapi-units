@@ -1,6 +1,25 @@
-export * from './const';
-export * from './convert';
-export * from './output';
-export * from './parse';
-export * from './predicates';
-export * from './utils';
+export { UNITS } from './const';
+export {
+  pxToRemOrEmValue,
+  remOrEmToPxValue,
+  unitedDimensionToUnitlessPixelValue,
+} from './convert';
+export { outputWithUnit } from './output';
+export {
+  elementsOfUnitedNumber,
+  numericPartOfUnitedNumber,
+  unitPartOfUnitedNumber,
+} from './parse';
+export {
+  isValidNumber,
+  isValidPositiveNumber,
+  isNumberWithUnit,
+  isNumberWithPx,
+  isNumberWithEm,
+  isNumberWithRem,
+  isNumberWithDpi,
+  isNumberWithPercent,
+  isAspectRatioString,
+  isUnitRemOrEm,
+} from './predicates';
+export { appendUnit } from './utils';
