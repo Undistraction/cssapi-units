@@ -1,13 +1,24 @@
 {
   "name": "js-css-units",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Undistraction/js-css-units.git"
   },
-  "files": ["src", "lib"],
-  "keywords": ["javascript", "css", "css-in-js", "units", "rems", "ems", "px"],
+  "files": [
+    "src",
+    "lib"
+  ],
+  "keywords": [
+    "javascript",
+    "css",
+    "css-in-js",
+    "units",
+    "rems",
+    "ems",
+    "px"
+  ],
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "6",
