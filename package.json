@@ -1,11 +1,24 @@
 {
-  "main": "dist/styled-mq.js",
+  "name": "js-css-units",
+  "version": "0.0.1",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Undistraction/js-css-units.git"
   },
-  "files": ["src", "lib"],
-  "keywords": ["javascript", "css", "css-in-js", "units", "rems", "ems", "px"],
+  "files": [
+    "src",
+    "lib"
+  ],
+  "keywords": [
+    "javascript",
+    "css",
+    "css-in-js",
+    "units",
+    "rems",
+    "ems",
+    "px"
+  ],
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "6",
@@ -25,7 +38,8 @@
     "rollup-plugin-node-resolve": "^3.0.0"
   },
   "dependencies": {
-    "ramda": "^0.25.0"
+    "ramda": "^0.25.0",
+    "ramda-adjunct": "^2.1.0"
   },
   "scripts": {
     "test": "jest --watch",
