@@ -1,4 +1,4 @@
-import { __, contains, curry, join, gt, both, all, either } from 'ramda';
+import { __, contains, curry, join, gt, both, either } from 'ramda';
 import { isInteger, isFloat } from 'ramda-adjunct';
 import { UNITS } from './const';
 
