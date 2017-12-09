@@ -14,5 +14,6 @@ export const isNumberWithEm = isNumberWithUnit([UNITS.EM]);
 export const isNumberWithRem = isNumberWithUnit([UNITS.REM]);
 export const isNumberWithDpi = isNumberWithUnit([UNITS.DPI]);
 export const isNumberWithPercent = isNumberWithUnit([UNITS.PERCENT]);
+export const isRatioString = test(/^[1-9]+[0-9]* ?\/ ?[1-9]+[0-9]*$/);
 
 export const isUnitRemOrEm = contains(__, [UNITS.EM, UNITS.REM]);

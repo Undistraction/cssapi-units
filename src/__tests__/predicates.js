@@ -7,6 +7,8 @@ import {
   positiveNumbers,
   negativeNumbers,
   genericNumbers,
+  validRatioStrings,
+  invalidRatioStrings,
 } from './data';
 import {
   isValidNumber,
@@ -18,6 +20,7 @@ import {
   isNumberWithRem,
   isNumberWithDpi,
   isNumberWithPercent,
+  isAspectRatioString,
 } from '../predicates';
 
 // const toTitle = compose(join(''), over(lensIndex(0), toUpper));
@@ -61,6 +64,19 @@ describe('predicates', () => {
     it('returns true for numbers with units', () => {
       for (const value of validNumbersWithAllUnits()) {
         expect(isNumberWithUnit(unitsToTestFor, value)).toBeTruthy();
+      }
+    });
+  });
+
+  describe('isAspectRatioString', () => {
+    it('returns false when the supplied value is not ratio string', () => {
+      for (const value of invalidRatioStrings()) {
+        expect(isAspectRatioString(value)).toBeFalsy();
+      }
+    });
+    it('returns true when the supplied value is a ratio string', () => {
+      for (const value of validRatioStrings()) {
+        expect(isAspectRatioString(value)).toBeTruthy();
       }
     });
   });

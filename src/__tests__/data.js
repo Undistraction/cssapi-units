@@ -58,3 +58,25 @@ export const validNumbersWithAllUnits = () =>
   appendUnitsToUnitlessValues(unitNames);
 
 export const validNumbersWithPx = ['-0.5px', '1.8px', '0px'];
+
+export const validRatioStrings = () => [
+  '16/9',
+  '1/1',
+  '9/16',
+  '16 /9',
+  '1 /1',
+  '9 /16',
+  '16/ 9',
+  '1/ 1',
+  '9/ 16',
+  '16 / 9',
+  '1 / 1',
+  '9 / 16',
+];
+
+export const invalidRatioStrings = () => [
+  '16.5/9',
+  '1/1.3',
+  ...genericNumbers(),
+  ...genericInvalidValues(),
+];
