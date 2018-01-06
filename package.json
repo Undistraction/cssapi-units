@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "ramda": "^0.25.0",
-    "ramda-adjunct": "^2.1.0"
+    "ramda-adjunct": "^2.2.0"
   },
   "scripts": {
     "test": "jest --watch",
