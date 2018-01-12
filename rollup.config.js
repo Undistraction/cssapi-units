@@ -3,10 +3,10 @@ import babel from 'rollup-plugin-babel';
 import commonjs from 'rollup-plugin-commonjs';
 
 export default {
-  name: 'js-css-units',
+  name: 'cssjs-units',
   input: 'src/index.js',
   output: {
-    file: 'dist/js-css-units.js',
+    file: 'dist/cssjs-units.js',
     format: 'umd',
   },
   // Define modules that shouldn't be included in the build. It is assumed they
