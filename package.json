@@ -1,13 +1,24 @@
 {
   "name": "cssapi-units",
-  "version": "0.2.12",
+  "version": "0.3.0",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Undistraction/cssapi-units.git"
   },
-  "files": ["src", "lib"],
-  "keywords": ["javascript", "css", "css-in-js", "units", "rems", "ems", "px"],
+  "files": [
+    "src",
+    "lib"
+  ],
+  "keywords": [
+    "javascript",
+    "css",
+    "css-in-js",
+    "units",
+    "rems",
+    "ems",
+    "px"
+  ],
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "6",
