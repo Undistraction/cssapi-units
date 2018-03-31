@@ -18,6 +18,7 @@ describe('elementsOfUnitedNumber', () => {
     expect(elementsOfUnitedNumber('5px')).toEqual([5, 'px']);
     expect(elementsOfUnitedNumber('-10rem')).toEqual([-10, 'rem']);
     expect(elementsOfUnitedNumber('0em')).toEqual([0, 'em']);
+    expect(elementsOfUnitedNumber('32%')).toEqual([32, '%']);
   });
 });
 

@@ -1,33 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 1`] = `"Supplied value was not a number with a unit: '5'"`;
+exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 1`] = `"[cssapi] elementsOfUnitedNumber() Supplied value was not a number with a unit: '5'"`;
 
-exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 2`] = `"Supplied value was not a number with a unit: '5'"`;
+exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 2`] = `"[cssapi] elementsOfUnitedNumber() Supplied value was not a number with a unit: '5'"`;
 
-exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 3`] = `"Supplied value was not a number with a unit: 'px'"`;
+exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 3`] = `"[cssapi] elementsOfUnitedNumber() Supplied value was not a number with a unit: 'px'"`;
 
-exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 4`] = `"Supplied value was not a number with a unit: 'px10'"`;
+exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 4`] = `"[cssapi] elementsOfUnitedNumber() Supplied value was not a number with a unit: 'px10'"`;
 
-exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 5`] = `"Supplied value was not a number with a unit: '5 px'"`;
+exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 5`] = `"[cssapi] elementsOfUnitedNumber() Supplied value was not a number with a unit: '5 px'"`;
 
-exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 6`] = `"Supplied value was not a number with a unit: ''"`;
+exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 6`] = `"[cssapi] elementsOfUnitedNumber() Supplied value was not a number with a unit: ''"`;
 
-exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 7`] = `"Supplied value was not a number with a unit: 'null'"`;
+exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 7`] = `"[cssapi] elementsOfUnitedNumber() Supplied value was not a number with a unit: 'null'"`;
 
-exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 8`] = `"Supplied value was not a number with a unit: '[object Object]'"`;
+exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 8`] = `"[cssapi] elementsOfUnitedNumber() Supplied value was not a number with a unit: '[object Object]'"`;
 
-exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 9`] = `"Supplied value was not a number with a unit: 'undefined'"`;
+exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 9`] = `"[cssapi] elementsOfUnitedNumber() Supplied value was not a number with a unit: 'undefined'"`;
 
-exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 10`] = `"Supplied value was not a number with a unit: ''"`;
+exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 10`] = `"[cssapi] elementsOfUnitedNumber() Supplied value was not a number with a unit: ''"`;
 
-exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 11`] = `"Supplied value was not a number with a unit: 'true'"`;
+exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 11`] = `"[cssapi] elementsOfUnitedNumber() Supplied value was not a number with a unit: 'true'"`;
 
-exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 12`] = `"Supplied value was not a number with a unit: 'false'"`;
+exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 12`] = `"[cssapi] elementsOfUnitedNumber() Supplied value was not a number with a unit: 'false'"`;
 
-exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 13`] = `"Supplied value was not a number with a unit: 'NaN'"`;
+exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 13`] = `"[cssapi] elementsOfUnitedNumber() Supplied value was not a number with a unit: 'NaN'"`;
 
-exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 14`] = `"Supplied value was not a number with a unit: '0'"`;
+exports[`elementsOfUnitedNumber throws if the value isn't a number followed by a unit 14`] = `"[cssapi] elementsOfUnitedNumber() Supplied value was not a number with a unit: '0'"`;
 
-exports[`unitPartOfUnitedNumber throws if the supplied value isn't a united number 1`] = `"Supplied value was not a number with a unit: 'xxem'"`;
+exports[`unitPartOfUnitedNumber throws if the supplied value isn't a united number 1`] = `"[cssapi] elementsOfUnitedNumber() Supplied value was not a number with a unit: 'xxem'"`;
 
-exports[`unitPartOfUnitedNumber throws if the supplied value isn't a united number 2`] = `"Supplied value was not a number with a unit: 'NaNem'"`;
+exports[`unitPartOfUnitedNumber throws if the supplied value isn't a united number 2`] = `"[cssapi] elementsOfUnitedNumber() Supplied value was not a number with a unit: 'NaNem'"`;
